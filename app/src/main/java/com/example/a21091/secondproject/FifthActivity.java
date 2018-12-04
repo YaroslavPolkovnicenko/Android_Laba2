@@ -49,6 +49,19 @@ public class FifthActivity extends AppCompatActivity {
         });
     }
 
+    public void CheckRadioBtnMain(View view){
+             dop.setChecked(false);
+    }
+
+    public void CheckRadioBtnDop(View view){
+        /*if(main.isChecked() == true){
+            dop.setChecked(false);
+        } else if(dop.isChecked() == true){
+            main.setChecked(false);
+        }*/
+        main.setChecked(false);
+    }
+
     @Override
     protected void onStart() {
 
